@@ -17,5 +17,82 @@
   <h2>Корневой сайт на GitHub:</h2>
   <p>https://adya228.github.io</p>
      </body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Решение шифров Цезаря</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    h2 {
+      color: #3498db;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 8px;
+    }
+    .task {
+      margin-bottom: 25px;
+    }
+    .answer {
+      background-color: #ecf0f1;
+      padding: 12px;
+      border-left: 4px solid #3498db;
+      font-weight: bold;
+      margin-top: 8px;
+      border-radius: 0 4px 4px 0;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #7f8c8d;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+   <h2> 17 01, 2026</h2>
+  <h1>Решение задач по шифру Цезаря</h1>
 
+  <div class="task">
+    <h2>1. Определение ключей шифра Цезаря</h2>
+    <p><strong>а.</strong> Открытый текст: АПЕЛЬСИН → Шифротекст: САЦЬНВЩЮ</p>
+    <div class="answer">Ключ: k = 18</div>
+    
+    <p><strong>б.</strong> Открытый текст: АБРИКОС → Шифротекст: ЫЬЛГЕЙМ</p>
+    <div class="answer">Ключ: k = 28</div>
+  </div>
+
+  <div class="task">
+    <h2>2. Расшифровка сообщений (ключ неизвестен)</h2>
+    <p><strong>а.</strong> Шифротекст: ФХНЗКЧ</p>
+    <div class="answer">Расшифровка: ПРИВЕТ (k = 5)</div>
+    
+    <p><strong>б.</strong> Шифротекст: ЦЩЕБФ</p>
+    <div class="answer">Расшифровка: ВЕСНА (k = 20)</div>
+  </div>
+
+  <div class="task">
+    <h2>3. Шифрование фамилии с заданным ключом</h2>
+    <p>Фамилия: <strong>Анисимова</strong>, ключ: <strong>k = 10</strong></p>
+    <div class="answer">Шифротекст: КЧТЫТЦШМК</div>
+  </div>
+
+  <footer>
+    Решено с использованием 32-буквенного русского алфавита (без «Ё»).<br>
+    Дата решения: 17 января 2026 г.
+  </footer>
+</body>
+</html>
 </html>
